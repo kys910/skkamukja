@@ -1,0 +1,62 @@
+.TodoTemplate {
+  width: 512px;
+  // width가 주어진 상태에서 좌우 중앙 정렬
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6rem;
+  border-radius: 4px;
+  overflow: hidden;
+
+  .record {
+    margin-right: 30px;
+  }
+
+  .placeholder {
+    color: rgba(165, 165, 165, 1);
+    flex: 1;
+    display: flex;
+    margin-left: 15px;
+    letter-spacing: -0.05px;
+    border: none;
+  }
+
+  .componentTextFieldsMobileText {
+    width: 2px;
+    height: 22px;
+    background-color: rgba(224, 32, 92, 1);
+    margin-left: 30px;
+  }
+
+  .app-title {
+    background: white;
+    color: white;
+    height: 4rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content {
+    background: white;
+  }
+
+  .searchBtn {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .home {
+    background-color: rgba(226, 69, 144, 1);
+    padding: 19px 167px 19px 235px;
+    display: flex;
+    align-items: center;
+  }
+
+  .homeImg {
+    display: flex;
+    align-items: center;
+  }
+}
